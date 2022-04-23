@@ -1,0 +1,49 @@
+
+header{
+    background: url(../img/w-bg-a.jpg);
+    border-bottom: 1px solid #dbdbdb;
+}
+.navbar {
+   display: block;
+
+}
+
+.logo{
+   max-width: 50px;
+
+}
+.devtext{
+    font-size: 18px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 400;
+    white-space: pre-line;
+    margin-top: 28px;
+    
+
+}
+@media (max-width:480px) {
+    .devtext{
+        font-size: 10px;
+        text-align: center;
+        font-weight: 500;
+        white-space: pre-line;
+        margin-top: 28px;
+           
+    }    
+}
+.img1{
+    max-width: 194px;
+    max-height: 148px;
+    float:right;
+}
+.img2{
+    max-width: 167px;
+    max-height: 150px;
+}
+.me-2{
+    float:right;
+}
+.content1{
+    margin-top: 10px;
+}
